@@ -1,15 +1,13 @@
-# News777 Homebrew Tap
+# News777 Scoop Bucket
 
-Homebrew tap for [yapi-mcp](https://github.com/News777/Yapi-mcp) — a YApi MCP
+Scoop bucket for [yapi-mcp](https://github.com/News777/Yapi-mcp) — a YApi MCP
 server for AI coding agents.
 
 ```bash
-brew install news777/tap/yapi-mcp
+scoop bucket add news777 https://github.com/News777/scoop-bucket
+scoop install news777/yapi-mcp
 yapi-mcp --version
 ```
 
-> The formula's download URLs point at GitHub Releases assets; they resolve
+> The manifest's download URL points at GitHub Releases assets; it resolves
 > publicly from the v1.0.0 public launch onward.
-
-Formula is generated from the main repository's
-`packaging/homebrew/yapi-mcp.rb.template` (see `packaging/homebrew/` there).
